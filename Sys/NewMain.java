@@ -23,7 +23,7 @@ static int number=0;
         try{
         System.out.println("Choose your option ");
         System.out.println("1=Add new Employee");
-        System.out.println("2=searcgh for Employee");
+        System.out.println("2=search for Employee");
         System.out.println("3=Update Employee information");
         
         System.out.println("4=Exit");
@@ -210,8 +210,8 @@ static int number=0;
                  
                 for(int j=0;j<empl.size();j++){
                     if(empl.get(j).getFirstName().equals(firstName) && empl.get(j).getLastName().equals(lastName)){
-                    System.out.println("Employee number "+(j+1)+"\n hes name is "+empl.get(j).getFirstName()+" "+empl.get(j).getLastName()+"\n hes id = "+empl.get(j).getEID());
-                    System.out.println(" hes "+empl.get(j).getAge()+" years old\n------------------");
+                    System.out.println("Employee number "+(j+1)+"\n his name is "+empl.get(j).getFirstName()+" "+empl.get(j).getLastName()+"\n his id = "+empl.get(j).getEID());
+                    System.out.println(" his "+empl.get(j).getAge()+" years old\n------------------");
                     tillDone=true;
                     
                     
@@ -235,8 +235,8 @@ static int number=0;
                 for(int j=0;j<empl.size();j++){
                                     
                     if(empl.get(j).getEID()==EIDS){
-                    System.out.println("Employee number "+(j+1)+"\n hes name is "+empl.get(j).getFirstName()+" "+empl.get(j).getLastName()+"\n hes id = "+empl.get(j).getEID());
-                    System.out.println(" hes "+empl.get(j).getAge()+" years old\n------------------");
+                    System.out.println("Employee number "+(j+1)+"\n his name is "+empl.get(j).getFirstName()+" "+empl.get(j).getLastName()+"\n his id = "+empl.get(j).getEID());
+                    System.out.println(" his "+empl.get(j).getAge()+" years old\n------------------");
                     tillDone=true;
                     }
                     
@@ -249,8 +249,8 @@ static int number=0;
                 
                 if(empl.size()>0){
                 for(int j=0;j<empl.size();j++){
-                    System.out.println("Employee number "+(j+1)+"\n hes name is "+empl.get(j).getFirstName()+" "+empl.get(j).getLastName()+"\n hes id = "+empl.get(j).getEID());
-                    System.out.println(" hes "+empl.get(j).getAge()+" years old\n------------------");
+                    System.out.println("Employee number "+(j+1)+"\n his name is "+empl.get(j).getFirstName()+" "+empl.get(j).getLastName()+"\n his id = "+empl.get(j).getEID());
+                    System.out.println(" his "+empl.get(j).getAge()+" years old\n------------------");
                 }
                 }else
                     System.out.println("There is no Employee information\n----------------");                
