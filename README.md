@@ -1,8 +1,8 @@
 # You can use this program to insert your employees
 
-## using JAVA language
+## Using JAVA language
 
-# first there will be 4 options 
+# First there will be 4 options 
 
 ## 1=add new Employee
 ### You will insert 
@@ -26,9 +26,9 @@
 ### Employee Age
 
 
-## 3=Update Employee information
+## 3=update Employee information
 
-### first you will insert Employee ID
+### First you will insert Employee ID
 
 ### Then you can choose 
 
@@ -37,4 +37,4 @@
 ### 3=Exit
 
 
-##and finally 4= Exit 
+## And finally 4= Exit 
