@@ -1,4 +1,4 @@
-#you can use this program to insert your employees
+# You can use this program to insert your employees
 
 ## using JAVA language
 
